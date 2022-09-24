@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    background: #d5dbe2;
+    align-items: center;
+    padding: 10px;
+    border-radius: 100px;
+    padding: 25px;
+}
+
+#logo_work {
+    display: flex;
+    text-decoration: none;
+    color: #323748;
+    align-items: center;
+}
+
+#logo {
+    height: 50px;
+    margin-right: 20px;
+}
+
+/*Aplicamos estilos a la barra de navegación*/
+
+nav .link_nav {
+    padding-right: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #323748;
+    font-weight: bold; /*Aplicar negrita*/
+
+}
+
+nav .link_nav:hover{
+    color: white;
+    background-color: pink;
+    padding: 20px;
+    border-radius: 60px;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+#contenedor{
+    width: 80%;
+    background-color: floralwhite;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#titulo{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+#seccion1{
+    margin-top: 50px;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+
+}
+
+.img1{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.articuloseccion1{
+    text-align: center;
+}
+
+.articuloseccion1 p{
+    text-align: justify;
+}
+
+#seccion2{
+    margin-top: 50px;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.video{
+    width: 500;
+    height: 300px;
+}
+
+#seccion2{
+    text-align: center;
+}
+
+#seccion2 p{
+    text-align: justify;
+    margin-top: 30px;
+    padding: 20px;
+
+}
+
+#seccion3{
+    margin-top: 50px;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 40px;
+}
+
+.img3{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#seccion3{
+    text-align: center;
+}
+
+#seccion3 p{
+    text-align: justify;
+}
+
+#footer{
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+.img4{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+
